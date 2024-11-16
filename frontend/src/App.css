@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  
+}
+
+.inicio{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 10%;
+   margin-left: 10%;
+   margin-right: 10%;
+   padding-bottom: 3%;
+   padding-top: 2%;
+}
+
+.full-height-container {
+  background-image: url('./imagenes/ahorcado.jpg');
+  background-size:contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.tituloPrincipal{
+  color: rgb(64, 64, 233);
+  margin-bottom: 15%;
+ 
+}
+
+
+.modalInput{
+  width: 80%;
+  border: 2px, solid, rgb(64, 64, 233);
+}
+
+.tituloModal{
+  background-color:rgb(64, 64, 233);
+}
+
+.tituloRanking{
+  margin-bottom: 30%;
+}
